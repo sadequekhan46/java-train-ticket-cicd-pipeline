@@ -1,0 +1,6 @@
+.git
+.github
+docs
+screenshots
+target/*.war.original
+README.mddocker
