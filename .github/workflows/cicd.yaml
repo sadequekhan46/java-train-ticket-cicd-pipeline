@@ -84,4 +84,4 @@ jobs:
             docker run -d \
               --name train-ticket-container \
               -p 8080:8080 \
-               781863585859.dkr.ecr.us-east-1.amazonaws.com/train-ticket-app:latestgit
+               781863585859.dkr.ecr.us-east-1.amazonaws.com/train-ticket-app:latest
