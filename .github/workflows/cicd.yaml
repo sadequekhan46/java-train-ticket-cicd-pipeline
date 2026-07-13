@@ -18,7 +18,11 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-
+      - name: Check Java Version
+        run: |
+           java -version
+           javac -version
+           mvn -version
       # Build WAR
       - name: Build with Maven
         run: mvn clean package
