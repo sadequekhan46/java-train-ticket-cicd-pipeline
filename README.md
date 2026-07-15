@@ -121,8 +121,9 @@ train-ticket-app
 ## 5. Configure Apache Reverse Proxy
 ```
 Enable required modules
-```
+
 sudo a2enmod proxy
+```
 sudo a2enmod proxy_http
 ```
 Update Apache Virtual Host.
