@@ -1,6 +1,6 @@
-# 🚆 Java Train Ticket Reservation System - CI/CD Pipeline using GitHub Actions, Docker & AWS
+##  Java Train Ticket Reservation System - CI/CD Pipeline using GitHub Actions, Docker & AWS
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates a complete DevOps CI/CD pipeline for deploying a Java-based Train Ticket Reservation System using modern DevOps tools and AWS cloud services.
 
@@ -10,7 +10,7 @@ This project showcases Continuous Integration and Continuous Deployment (CI/CD) 
 
 ---
 
-# 🏗 Architecture
+## Architecture
 
 ```
                            Developer
@@ -50,46 +50,46 @@ This project showcases Continuous Integration and Continuous Deployment (CI/CD) 
 
 ---
 
-# 🛠 Technologies Used
+## Technologies Used
 
-### Programming Language
+## Programming Language
 
 - Java 17
 
-### Build Tool
+## Build Tool
 
 - Apache Maven
 
-### Containerization
+## Containerization
 
 - Docker
 
-### Version Control
+## Version Control
 
 - Git
 - GitHub
 
-### CI/CD
+## CI/CD
 
 - GitHub Actions
 
-### Cloud Services
+## Cloud Services
 
 - AWS EC2
 - Amazon Elastic Container Registry (ECR)
 - IAM
 
-### Web Server
+## Web Server
 
 - Apache2 Reverse Proxy
 
-### Operating System
+## Operating System
 
 - Ubuntu Server
 
 ---
 
-# 📁 Project Structure
+## Project Structure
 
 ```
 java-train-ticket-cicd-pipeline/
@@ -115,35 +115,35 @@ java-train-ticket-cicd-pipeline/
 
 ---
 
-# ⚙ CI/CD Workflow
+## CI/CD Workflow
 
 The CI/CD pipeline is fully automated using GitHub Actions.
 
-### Step 1
+## Step 1
 
 Developer pushes code to the **main** branch.
 
 ↓
 
-### Step 2
+## Step 2
 
 GitHub Actions automatically starts.
 
 ↓
 
-### Step 3
+## Step 3
 
 Checkout project source code.
 
 ↓
 
-### Step 4
+## Step 4
 
 Configure Java 17 environment.
 
 ↓
 
-### Step 5
+## Step 5
 
 Build the application using Maven.
 
@@ -153,67 +153,67 @@ mvn clean package
 
 ↓
 
-### Step 6
+## Step 6
 
 Build Docker Image.
 
 ↓
 
-### Step 7
+## Step 7
 
 Authenticate with Amazon ECR.
 
 ↓
 
-### Step 8
+## Step 8
 
 Push Docker Image to Amazon ECR.
 
 ↓
 
-### Step 9
+## Step 9
 
 Connect to AWS EC2 using SSH.
 
 ↓
 
-### Step 10
+## Step 10
 
 Pull the latest Docker image.
 
 ↓
 
-### Step 11
+## Step 11
 
 Stop the existing container (if running).
 
 ↓
 
-### Step 12
+## Step 12
 
 Remove the old container.
 
 ↓
 
-### Step 13
+## Step 13
 
 Run the updated Docker container.
 
 ↓
 
-### Step 14
+## Step 14
 
 Apache2 forwards requests to the Docker container.
 
 ↓
 
-### Step 15
+## Step 15
 
 Application becomes available to users.
 
 ---
 
-# 🚀 Setup Instructions
+## Setup Instructions
 
 ## 1. Clone the Repository
 
@@ -307,7 +307,7 @@ GitHub Actions automatically deploys the latest version.
 
 ---
 
-# 📸 Screenshots
+## Screenshots
 
 Add screenshots in the `screenshots` folder.
 
@@ -339,7 +339,7 @@ screenshots/
 
 ---
 
-# 🔮 Future Improvements
+## Future Improvements
 
 - Deploy using Amazon ECS (Fargate)
 - Use Application Load Balancer (ALB)
@@ -349,7 +349,7 @@ screenshots/
 
 ---
 
-# 👨‍💻 Author
+## Author
 
 **Khan Sadeque**
 
