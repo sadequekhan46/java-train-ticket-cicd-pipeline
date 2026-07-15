@@ -121,9 +121,7 @@ train-ticket-app
 ## 5. Configure Apache Reverse Proxy
 ```
 Enable required modules
-
 sudo a2enmod proxy
-```
 sudo a2enmod proxy_http
 ```
 Update Apache Virtual Host.
@@ -134,6 +132,7 @@ ProxyPass / http://localhost:8080/
 ProxyPassReverse / http://localhost:8080/
 ```
 Restart Apache.
+```
 sudo systemctl restart apache2
 ```
 ## 6. Configure GitHub Secrets
