@@ -206,5 +206,6 @@ GitHub Actions automatically deploys the latest version.
 ---
 ## Author
 **Khan Sadeque**
+```
 DevOps | AWS | Docker | GitHub Actions | Java | Linux | CI/CD
 ----------------------------------------------------
