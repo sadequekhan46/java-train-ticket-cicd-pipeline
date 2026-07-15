@@ -311,7 +311,7 @@ GitHub Actions automatically deploys the latest version.
 
 Add screenshots in the `screenshots` folder.
 
-Suggested screenshots:
+ screenshots:
 
 - GitHub Repository
 - GitHub Actions Success
