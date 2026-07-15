@@ -98,11 +98,13 @@ Application becomes available to users.
 ```
 ## Setup Instructions
 ## 1. Clone the Repository
+```
 git clone https://github.com/sadequekhan46/java-train-ticket-cicd-pipeline.git
 ```
 cd java-train-ticket-cicd-pipeline
-```
+
 ## 2. Build the Project
+
 mvn clean package
 ## 3. Build Docker Image
 docker build -t train-ticket-app .
