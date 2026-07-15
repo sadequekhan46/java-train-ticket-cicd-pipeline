@@ -104,23 +104,29 @@ git clone https://github.com/sadequekhan46/java-train-ticket-cicd-pipeline.git
 cd java-train-ticket-cicd-pipeline
 
 ## 2. Build the Project
-
+```
 mvn clean package
+```
 ## 3. Build Docker Image
+```
 docker build -t train-ticket-app .
+```
 ## 4. Run Docker Container
+```
 docker run -d \
 --name train-ticket-container \
 -p 8080:8080 \
 train-ticket-app
+```
 ## 5. Configure Apache Reverse Proxy
+```
 Enable required modules
 ```
 sudo a2enmod proxy
 sudo a2enmod proxy_http
 ```
 Update Apache Virtual Host.
-
+```
 apache
 ProxyPreserveHost On
 ProxyPass / http://localhost:8080/
