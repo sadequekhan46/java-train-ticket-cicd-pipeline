@@ -94,11 +94,11 @@ Apache2 forwards requests to the Docker container.
 ↓
 ## Step 15
 Application becomes available to users.
+```
 ## Setup Instructions
 ## 1. Clone the Repository
 git clone https://github.com/sadequekhan46/java-train-ticket-cicd-pipeline.git
 cd java-train-ticket-cicd-pipeline
-```
 ## 2. Build the Project
 mvn clean package
 ## 3. Build Docker Image
@@ -137,11 +137,10 @@ Create the following repository secrets.
 | EC2_SSH_KEY | EC2 Private Key |
 ---
 ## 7. Push Code
-
+---
 git add .
 git commit -m "Update project"
 git push origin main
----
 GitHub Actions automatically deploys the latest version.
 
 ## Screenshots
