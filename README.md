@@ -63,9 +63,7 @@ Configure Java 17 environment.
 ↓
 ## Step 5
 Build the application using Maven.
-```
 mvn clean package
-```
 ↓
 ## Step 6
 Build Docker Image.
@@ -100,11 +98,10 @@ Application becomes available to users.
 ## Setup Instructions
 ## 1. Clone the Repository
 git clone https://github.com/sadequekhan46/java-train-ticket-cicd-pipeline.git
-```
 cd java-train-ticket-cicd-pipeline
+```
 ## 2. Build the Project
 mvn clean package
----
 ## 3. Build Docker Image
 docker build -t train-ticket-app .
 ## 4. Run Docker Container
@@ -113,7 +110,8 @@ docker run -d \
 -p 8080:8080 \
 train-ticket-app
 ## 5. Configure Apache Reverse Proxy
-Enable required modules.
+Enable required modules
+
 sudo a2enmod proxy
 sudo a2enmod proxy_http
 ```
@@ -138,13 +136,14 @@ Create the following repository secrets.
 | EC2_HOST | EC2 Public IP / Elastic IP |
 | EC2_USERNAME | ubuntu |
 | EC2_SSH_KEY | EC2 Private Key |
----
+
 ## 7. Push Code
+
 git add .
 git commit -m "Update project"
 git push origin main
 GitHub Actions automatically deploys the latest version.
-
+---
 ## Screenshots
 - GitHub Repository
 ![image alt](https://github.com/sadequekhan46/java-train-ticket-cicd-pipeline/blob/9f52553c4164493e6da0b927e74ea0e11d036478/Screenshots/GIthub-repository.png)
