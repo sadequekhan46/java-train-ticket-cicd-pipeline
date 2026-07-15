@@ -94,7 +94,6 @@ Apache2 forwards requests to the Docker container.
 ↓
 ## Step 15
 Application becomes available to users.
----
 ## Setup Instructions
 ## 1. Clone the Repository
 git clone https://github.com/sadequekhan46/java-train-ticket-cicd-pipeline.git
@@ -111,12 +110,12 @@ docker run -d \
 train-ticket-app
 ## 5. Configure Apache Reverse Proxy
 Enable required modules
-
+```
 sudo a2enmod proxy
 sudo a2enmod proxy_http
 ```
 Update Apache Virtual Host.
-```
+
 apache
 ProxyPreserveHost On
 ProxyPass / http://localhost:8080/
@@ -138,12 +137,11 @@ Create the following repository secrets.
 | EC2_SSH_KEY | EC2 Private Key |
 
 ## 7. Push Code
-
 git add .
 git commit -m "Update project"
 git push origin main
 GitHub Actions automatically deploys the latest version.
----
+```
 ## Screenshots
 - GitHub Repository
 ![image alt](https://github.com/sadequekhan46/java-train-ticket-cicd-pipeline/blob/9f52553c4164493e6da0b927e74ea0e11d036478/Screenshots/GIthub-repository.png)
