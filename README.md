@@ -9,40 +9,7 @@ The application is built with Java and Maven, containerized using Docker, and au
 This project showcases Continuous Integration and Continuous Deployment (CI/CD) practices and serves as an end-to-end deployment solution.
 ---
 ## Architecture
-
-                           Developer
-                               │
-                               │ Git Push
-                               ▼
-                     GitHub Repository (main)
-                               │
-                               ▼
-                     GitHub Actions Workflow
-                               │
-          ┌────────────────────┴────────────────────┐
-          │                                         │
-          ▼                                         ▼
-     Maven Build                             Docker Build
-          │                                         │
-          └────────────────────┬────────────────────┘
-                               │
-                               ▼
-                    Amazon Elastic Container Registry
-                               │
-                               ▼
-                     SSH Deployment to EC2
-                               │
-                               ▼
-                      Pull Latest Docker Image
-                               │
-                               ▼
-                    Run Docker Container (8080)
-                               │
-                               ▼
-                    Apache2 Reverse Proxy (Port 80)
-                               │
-                               ▼
-                           End Users
+![image alt](https://github.com/sadequekhan46/java-train-ticket-cicd-pipeline/blob/main/Screenshots/project-structure.png)
 ```
 
 ## Technologies Used
@@ -220,8 +187,6 @@ GitHub Actions automatically deploys the latest version.
 - Running Application
 ![image alt](https://github.com/sadequekhan46/java-train-ticket-cicd-pipeline/blob/b90787819ac10a2a022ec653b606b51c3d515697/Screenshots/54.152.221.119.png)
 
-- Project Structure
-![image alt](https://github.com/sadequekhan46/java-train-ticket-cicd-pipeline/blob/main/Screenshots/project-structure.png)
 
 ## Future Improvements
 - Deploy using Amazon ECS (Fargate)
