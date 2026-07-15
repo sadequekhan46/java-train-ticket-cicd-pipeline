@@ -9,7 +9,7 @@ The application is built with Java and Maven, containerized using Docker, and au
 This project showcases Continuous Integration and Continuous Deployment (CI/CD) practices and serves as an end-to-end deployment solution.
 ---
 ## Architecture
-![image alt](https://github.com/sadequekhan46/java-train-ticket-cicd-pipeline/blob/main/Screenshots/project-structure.png)
+
 ```
 
 ## Technologies Used
