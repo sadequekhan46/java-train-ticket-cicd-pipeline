@@ -48,6 +48,7 @@ java-train-ticket-cicd-pipeline/
 └── screenshots/
 
 ## CI/CD Workflow
+```
 The CI/CD pipeline is fully automated using GitHub Actions.
 ## Step 1
 Developer pushes code to the **main** branch.
@@ -96,6 +97,7 @@ Apache2 forwards requests to the Docker container.
 Application becomes available to users.
 ```
 ## Setup Instructions
+```
 ## 1. Clone the Repository
 git clone https://github.com/sadequekhan46/java-train-ticket-cicd-pipeline.git
 cd java-train-ticket-cicd-pipeline
